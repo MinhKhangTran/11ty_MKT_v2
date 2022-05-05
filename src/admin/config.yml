@@ -1,0 +1,184 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "_site/images" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images" # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  - name: "components"
+    label: "components"
+    files:
+      - name: "info"
+        label: "Info"
+        file: "src/_data/info.json"
+        fields:
+          - { label: "name", name: "name", widget: string }
+          - { label: "email", name: "email", widget: string }
+      - name: "navbar"
+        label: "Navbar"
+        file: "src/_data/navbar.json"
+        fields:
+          - { label: "brand", name: "brand", widget: string }
+          - { label: "subheading", name: "subheading", widget: string }
+          - name: "navigations"
+            label: "navigations"
+            widget: "list"
+            fields:
+              - { name: "url", label: "url", widget: "string" }
+              - { name: "navigation", label: "navigation", widget: "string" }
+      - name: "footer"
+        label: "footer"
+        file: "src/_data/footer.json"
+        fields:
+          - { name: "text", label: "text", widget: "string" }
+  - name: "blog"
+    label: "blog"
+    folder: "src/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "tags", name: "tags", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "img", widget: "image", required: true }
+      - { label: "imageAlt", name: "imageAlt", widget: "string" }
+      - { label: "body", name: "body", widget: "markdown" }
+  - label: "Pages"
+    name: "pages"
+    files:
+      - name: "homepage"
+        label: "Homepage"
+        file: "src/index.html"
+        fields:
+          - {
+              label: Layout,
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/home.html",
+            }
+          - { label: Title, name: title, widget: string }
+      - name: "lifting"
+        label: "lifting"
+        file: "src/lifting.html"
+        fields:
+          - { label: Title, name: title, widget: string, default: "lifting" }
+          - {
+              label: Layout,
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/lifting.html",
+            }
+          - label: "header"
+            name: "header"
+            widget: "object"
+            fields:
+              - { label: "heading", name: "heading", widget: "string" }
+              - { label: "sub", name: "sub", widget: "string" }
+          - label: "pagination"
+            name: "pagination"
+            widget: "object"
+            fields:
+              - { label: "data", name: "data", widget: "string" }
+              - { label: "size", name: "size", widget: "number" }
+          - { label: permalink, name: permalink, widget: string }
+          - {
+              label: paginationPrevText,
+              name: paginationPrevText,
+              widget: string,
+            }
+          - {
+              label: paginationNextText,
+              name: paginationNextText,
+              widget: string,
+            }
+          - { label: paginationAnchor, name: paginationAnchor, widget: string }
+      - name: "korean"
+        label: "korean"
+        file: "src/korean.html"
+        fields:
+          - { label: Title, name: title, widget: string, default: "korean" }
+          - {
+              label: Layout,
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/korean.html",
+            }
+          - label: "header"
+            name: "header"
+            widget: "object"
+            fields:
+              - { label: "heading", name: "heading", widget: "string" }
+              - { label: "sub", name: "sub", widget: "string" }
+          - label: "pagination"
+            name: "pagination"
+            widget: "object"
+            fields:
+              - { label: "data", name: "data", widget: "string" }
+              - { label: "size", name: "size", widget: "number" }
+          - { label: permalink, name: permalink, widget: string }
+          - {
+              label: paginationPrevText,
+              name: paginationPrevText,
+              widget: string,
+            }
+          - {
+              label: paginationNextText,
+              name: paginationNextText,
+              widget: string,
+            }
+          - { label: paginationAnchor, name: paginationAnchor, widget: string }
+      - name: "web-development"
+        label: "web-development"
+        file: "src/web-development.html"
+        fields:
+          - {
+              label: Title,
+              name: title,
+              widget: string,
+              default: "web-development",
+            }
+          - {
+              label: Layout,
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/web-development.html",
+            }
+          - label: "header"
+            name: "header"
+            widget: "object"
+            fields:
+              - { label: "heading", name: "heading", widget: "string" }
+              - { label: "sub", name: "sub", widget: "string" }
+          - label: "pagination"
+            name: "pagination"
+            widget: "object"
+            fields:
+              - { label: "data", name: "data", widget: "string" }
+              - { label: "size", name: "size", widget: "number" }
+          - { label: permalink, name: permalink, widget: string }
+          - {
+              label: paginationPrevText,
+              name: paginationPrevText,
+              widget: string,
+            }
+          - {
+              label: paginationNextText,
+              name: paginationNextText,
+              widget: string,
+            }
+          - { label: paginationAnchor, name: paginationAnchor, widget: string }
+      - name: "404"
+        label: "404"
+        file: "src/404.html"
+        fields:
+          - { label: Title, name: title, widget: string, default: "kontakt" }
+          - {
+              label: permalink,
+              name: "permalink",
+              widget: "string",
+              default: "404.html",
+            }
+          - { label: heading, name: heading, widget: string }
+          - { label: desc, name: desc, widget: string }
+          - { label: "404_img", name: "404_img", widget: "string" }
