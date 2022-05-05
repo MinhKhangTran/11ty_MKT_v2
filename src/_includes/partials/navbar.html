@@ -33,17 +33,20 @@
   </div>
   <p class="body-sm | text-zinc-800">My personal blog and playground</p>
   <ul class="d-flex">
+    {% for nav in navbar.navigations %}
     <li>
-      <a class="nav" href="/">Home</a>
+      <a
+        class="nav"
+        href="{{nav.url}}"
+        {{
+        helpers.getLinkActiveState(nav.url,
+        page.url)
+        |
+        safe
+        }}
+        >{{nav.navigation}}</a
+      >
     </li>
-    <li>
-      <a class="nav" href="/lifting">Lifting</a>
-    </li>
-    <li>
-      <a class="nav" href="/korean">Korean</a>
-    </li>
-    <li>
-      <a class="nav" href="/web-devolopment">Web Development</a>
-    </li>
+    {% endfor %}
   </ul>
 </nav>

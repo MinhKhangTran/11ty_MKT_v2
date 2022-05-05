@@ -1,0 +1,20 @@
+{
+  "navigations": [
+    {
+      "url": "/",
+      "navigation": "home"
+    },
+    {
+      "url": "/lifting",
+      "navigation": "lifting"
+    },
+    {
+      "url": "/korean",
+      "navigation": "korean"
+    },
+    {
+      "url": "/web-development",
+      "navigation": "web development"
+    }
+  ]
+}
