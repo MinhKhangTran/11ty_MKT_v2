@@ -1,7 +1,7 @@
 <nav class="container">
   <div class="wrapper | d-flex justify-space-between">
     <h1 class="logo">
-      <a href="/">MKT</a>
+      <a href="/">{{navbar.brand}}</a>
     </h1>
     <button class="d-flex align-center | text-zinc-900" type="button">
       <svg
@@ -31,7 +31,7 @@
       <span> Search... </span>
     </button>
   </div>
-  <p class="body-sm | text-zinc-800">My personal blog and playground</p>
+  <p class="body-sm | text-zinc-800">{{navbar.subheading}}</p>
   <ul class="d-flex">
     {% for nav in navbar.navigations %}
     <li>
