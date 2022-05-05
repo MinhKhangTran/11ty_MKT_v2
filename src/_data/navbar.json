@@ -5,15 +5,15 @@
       "navigation": "home"
     },
     {
-      "url": "/lifting",
+      "url": "/lifting/",
       "navigation": "lifting"
     },
     {
-      "url": "/korean",
+      "url": "/korean/",
       "navigation": "korean"
     },
     {
-      "url": "/web-development",
+      "url": "/web-development/",
       "navigation": "web development"
     }
   ]

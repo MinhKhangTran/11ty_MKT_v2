@@ -367,10 +367,10 @@ nav ul {
 nav ul li {
   text-transform: capitalize;
 }
-nav ul li a[data-state=active] {
+nav ul li a {
   position: relative;
 }
-nav ul li a[data-state=active]:before {
+nav ul li a[data-state=active]:before, nav ul li a[aria-current=page]:before {
   content: "";
   display: block;
   width: 100%;
@@ -380,6 +380,11 @@ nav ul li a[data-state=active]:before {
   left: 0;
   margin-top: 0.2rem;
   background: #60a5fa;
+}
+
+footer {
+  padding-bottom: 1rem;
+  font-size: 1rem;
 }
 
 .d-flex {
