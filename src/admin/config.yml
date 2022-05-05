@@ -38,6 +38,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "displayTitle", name: "displayTitle", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "tags", name: "tags", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
