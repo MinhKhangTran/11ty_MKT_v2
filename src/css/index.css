@@ -1,0 +1,443 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Heebo:wght@500&family=Noto+Sans+KR&display=swap");
+.sr-only, .skip-to-content:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  /* added line */
+  border: 0;
+}
+
+.skip-to-content {
+  background: white;
+  color: black;
+  padding: 0.5em 1em;
+  margin-inline: auto;
+  transform: translateY(-120%);
+  transition: transform 500ms ease-in;
+  position: absolute;
+  z-index: 1000;
+}
+.skip-to-content:focus {
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+*::before,
+*::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+/* https://piccalil.li/blog/a-modern-css-reset/ */
+/* Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset Margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body */
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 1.25rem;
+}
+
+/* Images */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Forms */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.text-zinc-100 {
+  color: #f4f4f5;
+}
+
+.text-hover-zinc-100:hover {
+  color: #f4f4f5;
+}
+
+.bg-zinc-100 {
+  background-color: #f4f4f5;
+}
+
+.bg-hover-zinc-100:hover {
+  background-color: #f4f4f5;
+}
+
+.text-zinc-500 {
+  color: #71717a;
+}
+
+.text-hover-zinc-500:hover {
+  color: #71717a;
+}
+
+.bg-zinc-500 {
+  background-color: #71717a;
+}
+
+.bg-hover-zinc-500:hover {
+  background-color: #71717a;
+}
+
+.text-zinc-600 {
+  color: #52525b;
+}
+
+.text-hover-zinc-600:hover {
+  color: #52525b;
+}
+
+.bg-zinc-600 {
+  background-color: #52525b;
+}
+
+.bg-hover-zinc-600:hover {
+  background-color: #52525b;
+}
+
+.text-zinc-800 {
+  color: #27272a;
+}
+
+.text-hover-zinc-800:hover {
+  color: #27272a;
+}
+
+.bg-zinc-800 {
+  background-color: #27272a;
+}
+
+.bg-hover-zinc-800:hover {
+  background-color: #27272a;
+}
+
+.text-zinc-900 {
+  color: #18181b;
+}
+
+.text-hover-zinc-900:hover {
+  color: #18181b;
+}
+
+.bg-zinc-900 {
+  background-color: #18181b;
+}
+
+.bg-hover-zinc-900:hover {
+  background-color: #18181b;
+}
+
+.text-blue-400 {
+  color: #60a5fa;
+}
+
+.text-hover-blue-400:hover {
+  color: #60a5fa;
+}
+
+.bg-blue-400 {
+  background-color: #60a5fa;
+}
+
+.bg-hover-blue-400:hover {
+  background-color: #60a5fa;
+}
+
+.text-blue-600 {
+  color: #2563eb;
+}
+
+.text-hover-blue-600:hover {
+  color: #2563eb;
+}
+
+.bg-blue-600 {
+  background-color: #2563eb;
+}
+
+.bg-hover-blue-600:hover {
+  background-color: #2563eb;
+}
+
+.text-red-100 {
+  color: #fee2e2;
+}
+
+.text-hover-red-100:hover {
+  color: #fee2e2;
+}
+
+.bg-red-100 {
+  background-color: #fee2e2;
+}
+
+.bg-hover-red-100:hover {
+  background-color: #fee2e2;
+}
+
+.text-red-700 {
+  color: #b91c1c;
+}
+
+.text-hover-red-700:hover {
+  color: #b91c1c;
+}
+
+.bg-red-700 {
+  background-color: #b91c1c;
+}
+
+.bg-hover-red-700:hover {
+  background-color: #b91c1c;
+}
+
+.text-yellow-100 {
+  color: #fef9c3;
+}
+
+.text-hover-yellow-100:hover {
+  color: #fef9c3;
+}
+
+.bg-yellow-100 {
+  background-color: #fef9c3;
+}
+
+.bg-hover-yellow-100:hover {
+  background-color: #fef9c3;
+}
+
+.text-yellow-700 {
+  color: #a16207;
+}
+
+.text-hover-yellow-700:hover {
+  color: #a16207;
+}
+
+.bg-yellow-700 {
+  background-color: #a16207;
+}
+
+.bg-hover-yellow-700:hover {
+  background-color: #a16207;
+}
+
+.text-green-100 {
+  color: #ecfccb;
+}
+
+.text-hover-green-100:hover {
+  color: #ecfccb;
+}
+
+.bg-green-100 {
+  background-color: #ecfccb;
+}
+
+.bg-hover-green-100:hover {
+  background-color: #ecfccb;
+}
+
+.text-green-700 {
+  color: #4d7c0f;
+}
+
+.text-hover-green-700:hover {
+  color: #4d7c0f;
+}
+
+.bg-green-700 {
+  background-color: #4d7c0f;
+}
+
+.bg-hover-green-700:hover {
+  background-color: #4d7c0f;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.justify-flex-start {
+  justify-content: flex-start;
+}
+
+.align-flex-start {
+  align-items: flex-start;
+}
+
+.justify-flex-end {
+  justify-content: flex-end;
+}
+
+.align-flex-end {
+  align-items: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.align-space-between {
+  align-items: space-between;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.align-space-around {
+  align-items: space-around;
+}
+
+.rounded {
+  border-radius: 90px;
+}
+
+.container {
+  width: 90%;
+  max-width: 920px;
+  margin-inline: auto;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "Archivo", sans-serif;
+}
+@media (min-width: 576px) {
+  .logo {
+    font-size: 3rem;
+  }
+}
+
+.heading-1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  font-family: "Heebo", sans-serif;
+}
+@media (min-width: 576px) {
+  .heading-1 {
+    font-size: 4rem;
+  }
+}
+
+.heading-2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-family: "Heebo", sans-serif;
+}
+@media (min-width: 576px) {
+  .heading-2 {
+    font-size: 3rem;
+  }
+}
+
+.body-lg {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+@media (min-width: 576px) {
+  .body-lg {
+    font-size: 1.25rem;
+  }
+}
+
+.body-sm {
+  font-size: 1rem;
+  font-weight: 400;
+}
+@media (min-width: 576px) {
+  .body-sm {
+    font-size: 1.125rem;
+  }
+}
+
+.body-sm {
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-family: "Heebo", sans-serif;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}

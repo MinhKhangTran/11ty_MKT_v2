@@ -1,0 +1,38 @@
+// partial Tailwind colors
+// Gray
+$zinc-100: #f4f4f5;
+$zinc-500: #71717a;
+$zinc-600: #52525b;
+$zinc-800: #27272a;
+$zinc-900: #18181b;
+// Blue
+$blue-400: #60a5fa;
+$blue-600: #2563eb;
+// Red
+$red-100: #fee2e2;
+$red-700: #b91c1c;
+// Yellow
+$yellow-100: #fef9c3;
+$yellow-700: #a16207;
+// Green
+$green-100: #ecfccb;
+$green-700: #4d7c0f;
+
+// color palette
+$colors: (
+  "zinc-100": $zinc-100,
+  "zinc-500": $zinc-500,
+  "zinc-600": $zinc-600,
+  "zinc-800": $zinc-800,
+  "zinc-900": $zinc-900,
+  "blue-400": $blue-400,
+  "blue-600": $blue-600,
+  "red-100": $red-100,
+  "red-700": $red-700,
+  "yellow-100": $yellow-100,
+  "yellow-700": $yellow-700,
+  "green-100": $green-100,
+  "green-700": $green-700,
+);
+
+$transition: all 0.35s ease-in;

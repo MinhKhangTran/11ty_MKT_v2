@@ -1,0 +1,55 @@
+@use "sass:math";
+
+.logo {
+  font-size: math.div(40rem, 16);
+  font-weight: 700;
+  font-family: "Archivo", sans-serif;
+  @include sm {
+    font-size: math.div(48rem, 16);
+  }
+}
+
+.heading-1 {
+  font-size: math.div(56rem, 16);
+  font-weight: 500;
+  font-family: "Heebo", sans-serif;
+  @include sm {
+    font-size: math.div(64rem, 16);
+  }
+}
+.heading-2 {
+  font-size: math.div(40rem, 16);
+  font-weight: 500;
+  font-family: "Heebo", sans-serif;
+  @include sm {
+    font-size: math.div(48rem, 16);
+  }
+}
+.body-lg {
+  font-size: math.div(18rem, 16);
+  font-weight: 400;
+
+  @include sm {
+    font-size: math.div(20rem, 16);
+  }
+}
+.body-sm {
+  font-size: math.div(16rem, 16);
+  font-weight: 400;
+
+  @include sm {
+    font-size: math.div(18rem, 16);
+  }
+}
+.body-sm {
+  font-size: math.div(20rem, 16);
+  font-weight: 500;
+  font-family: "Heebo", sans-serif;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+.text-center {
+  text-align: center;
+}
