@@ -1,6 +1,7 @@
 // partial Tailwind colors
 // Gray
 $zinc-100: #f4f4f5;
+$zinc-200: #e4e4e7;
 $zinc-500: #71717a;
 $zinc-600: #52525b;
 $zinc-800: #27272a;
@@ -21,6 +22,7 @@ $green-700: #4d7c0f;
 // color palette
 $colors: (
   "zinc-100": $zinc-100,
+  "zinc-200": $zinc-200,
   "zinc-500": $zinc-500,
   "zinc-600": $zinc-600,
   "zinc-800": $zinc-800,

@@ -41,10 +41,11 @@
     font-size: math.div(18rem, 16);
   }
 }
-.body-sm {
+.nav {
   font-size: math.div(20rem, 16);
   font-weight: 500;
   font-family: "Heebo", sans-serif;
+  color: $zinc-800;
 }
 
 .uppercase {
