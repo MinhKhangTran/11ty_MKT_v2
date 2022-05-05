@@ -1,5 +1,6 @@
 ---
-title: New Year, New Me - Wie ich meine Vorsätze halte (새해 결심을 지키는 방법)
+title: New Year, New Me
+displayTitle: New Year, New Me - Wie ich meine Vorsätze halte (새해 결심을 지키는 방법)
 description: Happy new year an alle. Ich hoffe ihr seid gut ins neue Jahr
   gekommen. Habt ihr dieses Jahr Vorsätze gesetzt? Hält ihr euch noch an diese?
   Heute werde ich über meine Vorsätze schreiben und warum ich nicht viel davon
