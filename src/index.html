@@ -1,4 +1,11 @@
 ---
 layout: layouts/home.html
 title: MKT
+pagination:
+  data: collections.blog
+  size: 5
+permalink: "{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html"
+paginationPrevText: "Next Page"
+paginationNextText: "Previous Page"
+paginationAnchor: "#blog-list"
 ---

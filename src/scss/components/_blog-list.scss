@@ -1,0 +1,28 @@
+@use "sass:math";
+
+#blog__list {
+  margin-block: math.div(40rem, 16);
+  @include md {
+    margin-block: math.div(48rem, 16);
+  }
+  a {
+    text-decoration: none;
+  }
+  article:first-child {
+    margin-top: 0;
+  }
+  article {
+    margin-block: math.div(40rem, 16);
+    p {
+      margin-block: 0.5rem;
+    }
+    .pill__korean {
+      text-transform: capitalize;
+      font-size: 1.125rem;
+      background-color: $yellow-100;
+      color: $yellow-700;
+      padding-inline: 1rem;
+      padding-block: 0.5rem;
+    }
+  }
+}

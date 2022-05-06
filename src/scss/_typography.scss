@@ -21,6 +21,7 @@
   font-size: math.div(40rem, 16);
   font-weight: 500;
   font-family: "Heebo", sans-serif;
+  line-height: 104%;
   @include sm {
     font-size: math.div(48rem, 16);
   }

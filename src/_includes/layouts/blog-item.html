@@ -1,0 +1,14 @@
+{% extends "layouts/base.html" %} {% block content %}
+
+<section id="blog__item" aria-label="blog section" class="container">
+  <h1 class="heading-1 | text-zinc-900">{{title}}</h1>
+  <div class="text-zinc-600">
+    <time datetime="{{date | dateFilter}}">{{date | dateFilter}}</time>
+  </div>
+  {{content |safe}}
+</section>
+
+<div class="container">
+  <a href="/" class="">Zurück zu den Blogposts</a>
+</div>
+{% endblock %}

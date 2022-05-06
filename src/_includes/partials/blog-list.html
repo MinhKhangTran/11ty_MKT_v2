@@ -1,0 +1,20 @@
+<section class="container" id="blog__list" aria-label="blog list section">
+  {% for blogpost in blogListItems %}
+  <article>
+    <a href="{{blogpost.url}}">
+      <div class="text-zinc-600">
+        <time datetime="{{date | dateFilter}}">{{date | dateFilter}}</time>
+      </div>
+      <h2 class="heading-2 | text-zinc-900">{{blogpost.data.title}}</h2>
+      <p class="body-lg text-zinc-600">
+        {{blogpost.data.description | subString}}
+      </p>
+    </a>
+    <a href="/{{blogpost.data.tags}}">
+      <span class="pill__{{blogpost.data.tags}} | rounded"
+        >{{blogpost.data.tags}}
+      </span>
+    </a>
+  </article>
+  {% endfor %}
+</section>

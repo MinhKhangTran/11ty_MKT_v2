@@ -11,10 +11,12 @@
 // colors
 @import "colors";
 
-// components
-@import "components/navbar";
-@import "components/footer";
-
 // utilities
 @import "utilities";
 @import "typography";
+
+// components
+@import "components/navbar";
+@import "components/footer";
+@import "components/blog-item";
+@import "components/blog-list";

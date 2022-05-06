@@ -1,3 +1,7 @@
+// Filters
+const dateFilter = require("./src/filters/date-filter.js");
+const subString = require("./src/filters/substring.js");
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/images");
   eleventyConfig.addPassthroughCopy("./src/css");
@@ -8,6 +12,15 @@ module.exports = function (eleventyConfig) {
   // add filter for the year
   eleventyConfig.addFilter("year", () => {
     return new Date().getFullYear();
+  });
+
+  // Add filters
+  eleventyConfig.addFilter("dateFilter", dateFilter);
+  eleventyConfig.addFilter("subString", subString);
+
+  // add blogs to collections
+  eleventyConfig.addCollection("blog", (collection) => {
+    return collection.getFilteredByGlob("./src/blog/*.md").reverse();
   });
 
   return {
