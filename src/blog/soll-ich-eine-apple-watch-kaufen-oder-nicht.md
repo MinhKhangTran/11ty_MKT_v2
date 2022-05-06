@@ -8,10 +8,12 @@ description: In letzter Zeit habe ich mir viele Gedanken gemacht, ob ich eine
   생각해봤어요. 이 물건은 너무 비싸고 우리의 절약 계획에 안 맞아요. 여러분도 이런 상황을 잘 알고 있어요. 사고 싶은 것이 있지만 사는
   것을 잘 정할 수 없어요.
 tags: korean
+tags_href: korean
 date: 2022-01-18T09:52:41.250Z
 img: /images/output_586961498.jpg
 imageAlt: my broken fake apple watch
 ---
+
 In letzter Zeit habe ich mir viele Gedanken gemacht, ob ich eine Apple Watch kaufen soll. Solche Produkte sind ziemlich teuer und passt nicht zu unserem Sparplan. Ihr kennt es bestimmt. Es gibt etwas, dass ihr unbedingt kaufen wollte, aber ihr könnt euch nicht entscheiden.
 
 ​

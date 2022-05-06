@@ -7,10 +7,12 @@ description: Happy new year an alle. Ich hoffe ihr seid gut ins neue Jahr
   halte.  ​  새해 복 많이 받으세요. 여러분은 올해 새해 계획을 잘 세웠어요? 지금까지 잘 지키고 있어요? 오늘은 제 새해 계획에
   대해서 쓸 거예요. 그리고 제가 새해 결심을 왜 안 좋아하는지 이유도 함께 말할 거예요.
 tags: korean
+tags_href: korean
 date: 2022-01-10T09:25:27.851Z
 img: /images/new_year-_new_me.jpg
 imageAlt: new year new me illustration
 ---
+
 ![new year new me illustration](/images/new_year-_new_me.jpg "새해 결심")
 
 Happy new year an alle. Ich hoffe ihr seid gut ins neue Jahr gekommen. Habt ihr dieses Jahr Vorsätze gesetzt? Hält ihr euch noch an diese? Heute werde ich über meine Vorsätze schreiben und warum ich nicht viel davon halte.
@@ -50,8 +52,6 @@ In einer Statistik habe ich gelesen, dass 80% der Leute Ende Februar ihre Vorsä
 통계에 따르면 2월말 80% 사람들이 새해결심을 깨끗이 포기한다고 했어요. 그리고 8% 사람만 연말까지새해 결심을 지킨다고 해요. 이 통계를 보면 좀 충격을 받아요.
 
 하지만 많은 사람들이 결심을 하나 마나 결국에 상관없어요. 많은 사람들이 어차피 결국 포기할 거예요.
-
-
 
 Meistens liegt es daran, dass diese Menschen zu ungeduldig sind. Sie erhoffen sich schnelle Ergebnisse, doch gute Ergebnisse braucht seine Zeit. Außerdem wissen diese Menschen nicht, was der nächste Schritt ist. Sie setzen sich große Ziele, aber sind überfordert mit dem Weg dahin. Diese Tatsache demotiviert einige, weshalb solche Vorsätze kurzlebig sind.
 

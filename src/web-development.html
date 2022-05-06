@@ -1,4 +1,11 @@
 ---
 layout: layouts/web-development.html
 title: Web Development Blogposts
+pagination:
+  data: collections.webBlogs
+  size: 5
+permalink: "web/{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html"
+paginationPrevText: "Next Page"
+paginationNextText: "Previous Page"
+paginationAnchor: "#web"
 ---
