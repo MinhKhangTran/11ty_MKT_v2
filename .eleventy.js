@@ -22,6 +22,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("blog", (collection) => {
     return collection.getFilteredByGlob("./src/blog/*.md").reverse();
   });
+  // add korean blogs to collections
+  eleventyConfig.addCollection("koreanBlogs", (collection) => {
+    return collection
+      .getFilteredByGlob("./src/blog/*.md")
+      .filter((x) => x.tags === "korean");
+  });
 
   return {
     dir: {

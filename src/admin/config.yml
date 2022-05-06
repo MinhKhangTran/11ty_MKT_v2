@@ -59,6 +59,24 @@ collections:
               default: "layouts/home.html",
             }
           - { label: Title, name: title, widget: string }
+          - label: "pagination"
+            name: "pagination"
+            widget: "object"
+            fields:
+              - { label: "data", name: "data", widget: "string" }
+              - { label: "size", name: "size", widget: "number" }
+          - { label: permalink, name: permalink, widget: string }
+          - {
+              label: paginationPrevText,
+              name: paginationPrevText,
+              widget: string,
+            }
+          - {
+              label: paginationNextText,
+              name: paginationNextText,
+              widget: string,
+            }
+          - { label: paginationAnchor, name: paginationAnchor, widget: string }
       - name: "lifting"
         label: "lifting"
         file: "src/lifting.html"

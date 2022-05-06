@@ -3,7 +3,9 @@
   <article>
     <a href="{{blogpost.url}}">
       <div class="text-zinc-600">
-        <time datetime="{{date | dateFilter}}">{{date | dateFilter}}</time>
+        <time datetime="{{blogpost.data.date | dateFilter}}"
+          >{{blogpost.data.date | dateFilter}}</time
+        >
       </div>
       <h2 class="heading-2 | text-zinc-900">{{blogpost.data.title}}</h2>
       <p class="body-lg text-zinc-600">

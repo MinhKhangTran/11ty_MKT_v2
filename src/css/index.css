@@ -544,6 +544,9 @@ footer {
 #blog__list article {
   margin-block: 2.5rem;
 }
+#blog__list article h2 {
+  margin-top: 0.5rem;
+}
 #blog__list article p {
   margin-block: 0.5rem;
 }
