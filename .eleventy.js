@@ -26,19 +26,22 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("koreanBlogs", (collection) => {
     return collection
       .getFilteredByGlob("./src/blog/*.md")
-      .filter((x) => x.tags === "korean");
+      .filter((x) => x.data.tags == "korean")
+      .reverse();
   });
   // add lifting blogs to collections
   eleventyConfig.addCollection("liftingBlogs", (collection) => {
     return collection
       .getFilteredByGlob("./src/blog/*.md")
-      .filter((x) => x.tags === "lifting");
+      .filter((x) => x.data.tags == "lifting")
+      .reverse();
   });
   // add web blogs to collections
   eleventyConfig.addCollection("webBlogs", (collection) => {
     return collection
       .getFilteredByGlob("./src/blog/*.md")
-      .filter((x) => x.tags === "web development");
+      .filter((x) => x.data.tags == "web development")
+      .reverse();
   });
 
   return {
