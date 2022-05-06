@@ -28,6 +28,18 @@ module.exports = function (eleventyConfig) {
       .getFilteredByGlob("./src/blog/*.md")
       .filter((x) => x.tags === "korean");
   });
+  // add lifting blogs to collections
+  eleventyConfig.addCollection("liftingBlogs", (collection) => {
+    return collection
+      .getFilteredByGlob("./src/blog/*.md")
+      .filter((x) => x.tags === "lifting");
+  });
+  // add web blogs to collections
+  eleventyConfig.addCollection("webBlogs", (collection) => {
+    return collection
+      .getFilteredByGlob("./src/blog/*.md")
+      .filter((x) => x.tags === "web development");
+  });
 
   return {
     dir: {
