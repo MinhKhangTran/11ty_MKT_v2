@@ -10,7 +10,7 @@ description: Gestern am 16.01.2022 hat mir eine Freundin von KSY paar TOPIK
   Also habe ich alle meine sieben Sachen gepackt und habe mich angemeldet. Die
   Gebühren kosteten 40 €. Es ist verglichen mit anderen Tests viel günstiger.
 tags: web development
-tags_href: web-development
+tags_href: web
 date: 2022-01-27T10:05:46.386Z
 img: /images/img_6568.jpg
 imageAlt: Details to the 81. Topik Exam
