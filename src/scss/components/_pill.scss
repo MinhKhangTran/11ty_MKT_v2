@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+  margin-bottom: 1rem;
+  .pill__korean {
+    text-transform: capitalize;
+    font-size: 1.125rem;
+    background-color: $yellow-100;
+    color: $yellow-700;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+  }
+  .pill__lifting {
+    text-transform: capitalize;
+    font-size: 1.125rem;
+    background-color: $red-100;
+    color: $red-700;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+  }
+  .pill__web {
+    text-transform: capitalize;
+    font-size: 1.125rem;
+    background-color: $green-100;
+    color: $green-700;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+  }
+}

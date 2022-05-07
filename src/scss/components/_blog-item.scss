@@ -1,1 +1,24 @@
 @use "sass:math";
+
+#blog__item {
+  margin-block: math.div(40rem, 16);
+  @include md {
+    margin-block: math.div(48rem, 16);
+  }
+
+  p {
+    margin-top: 2rem;
+  }
+  h2 {
+    margin-top: 2rem;
+  }
+  figure {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    figcaption {
+      text-align: center;
+      font-style: italic;
+      color: $zinc-600;
+    }
+  }
+}
