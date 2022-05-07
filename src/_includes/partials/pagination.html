@@ -1,0 +1,35 @@
+{# Only renders this section if there are links to render #} {% if
+pagination.href.next or pagination.href.previous %}
+<footer class="container">
+  <div class="">
+    <nav class="" aria-label="Pagination links">
+      {% if pagination.href.previous %}
+      <div class="d-flex">
+        <a
+          class="previous | btn"
+          href="{{ pagination.href.previous }}"
+          data-direction="backwards"
+        >
+          <span
+            >{{ paginationPrevText if paginationPrevText else 'Previous'
+            }}</span
+          >
+        </a>
+      </div>
+      {% endif %} {% if pagination.href.next %}
+      <div class="d-flex">
+        <a
+          class="next | btn"
+          href="{{ pagination.href.next }}"
+          data-direction="forwards"
+        >
+          <span
+            >{{ paginationNextText if paginationNextText else 'Next' }}</span
+          >
+        </a>
+      </div>
+      {% endif %}
+    </nav>
+  </div>
+</footer>
+{% endif %}

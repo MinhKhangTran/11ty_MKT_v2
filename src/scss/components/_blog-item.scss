@@ -21,4 +21,19 @@
       color: $zinc-600;
     }
   }
+  hr {
+    border-top: 2px solid $blue-400;
+    width: 35%;
+    margin-block: 2rem;
+  }
+  blockquote {
+    border-inline-start: 1rem solid $blue-400;
+    padding-inline-start: 1.77rem;
+    padding-top: 1.33rem;
+    padding-bottom: 1.33rem;
+    font-style: italic;
+  }
+}
+.back__button {
+  margin-bottom: 2rem;
 }

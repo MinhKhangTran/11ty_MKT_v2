@@ -135,8 +135,6 @@ Doch zum Glück gibt es in goAsia bibigo und jongga kimchi:
 
 Und viel mehr
 
-​
-
 다행히 goAsia에 비비고나 종가집에서 나온 다양한 김치가 있다:
 
 - 열무김치

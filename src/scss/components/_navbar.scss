@@ -1,9 +1,9 @@
 @use "sass:math";
 
 nav {
-  margin-top: math.div(24rem, 16);
+  padding-top: math.div(24rem, 16);
   @include md {
-    margin-top: math.div(48rem, 16);
+    padding-top: math.div(48rem, 16);
   }
   a {
     text-decoration: none;
