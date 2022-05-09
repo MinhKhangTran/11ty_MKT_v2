@@ -28,7 +28,7 @@ On Sunday my Body Weight was around 79 kg. I am still feeling good, but hungery 
 
 **Close Grip Bench 72,5 kg for 3x8 at rir1.5**
 
-\---
+---
 
 ### Day 2
 
@@ -39,7 +39,7 @@ On Sunday my Body Weight was around 79 kg. I am still feeling good, but hungery 
 
 *It was more touch and go then competition style*
 
-*\---*
+---
 
 ### Day 3
 
@@ -55,7 +55,7 @@ On Sunday my Body Weight was around 79 kg. I am still feeling good, but hungery 
 
 *Close Grip Bench feels easier, but the way is so much longer...*
 
-*\---*
+---
 
 ### Day 4
 
