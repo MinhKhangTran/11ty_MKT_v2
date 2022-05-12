@@ -10,18 +10,19 @@
 }
 
 .heading-1 {
-  font-size: math.div(56rem, 16);
+  font-size: math.div(48rem, 16);
   font-weight: 500;
   font-family: "Heebo", sans-serif;
+  line-height: 95%;
   @include sm {
-    font-size: math.div(64rem, 16);
+    font-size: math.div(56rem, 16);
   }
 }
 .heading-2 {
   font-size: math.div(40rem, 16);
   font-weight: 500;
   font-family: "Heebo", sans-serif;
-  line-height: 104%;
+  line-height: 100%;
   @include sm {
     font-size: math.div(48rem, 16);
   }

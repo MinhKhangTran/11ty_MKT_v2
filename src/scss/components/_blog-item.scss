@@ -7,12 +7,16 @@
   }
 
   p {
+    margin-top: 1.5rem;
+  }
+  h1 {
+    padding-block: 1rem;
+  }
+  h2,
+  h3 {
     margin-top: 2rem;
   }
-  h2,h3 {
-    margin-top: 2rem;
-  }
-  h3{
+  h3 {
     font-size: 2rem;
     font-weight: bold;
   }
