@@ -20,7 +20,7 @@
 
 
 
-~~at first in English ~~
+~~at first in English~~
 
 ~~Simple Design~~
 
