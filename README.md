@@ -29,16 +29,21 @@
 
 - Auf Deutsch alles ✅
 - Home mit kurzes about mit github code, rss und buy me a coffee
+- [rss](https://www.11ty.dev/docs/plugins/rss/)
+- [images](https://www.11ty.dev/docs/plugins/image/)
+- [TOC](https://github.com/jdsteinbach/eleventy-plugin-toc#readme)
 - Footer mit verlinkung auf mkt-webdesign
 - Favicon wählen ✅
 - Mehr jüngste Posts
-  - Sport: plan aufschreiben übung,gewichte, wdh, rir etc
+  - Powerlifting: plan aufschreiben übung,gewichte, wdh, rir etc
   - Koreanisch: die Flashcards und gelernte vokabeln von Solo Leveling etc
   - Web Design: Tägliche Learnings sachen Design oder code, Markdown tips, emmet tips, umschließen vs code etc
   - Produktivität => Als neue kategorie??
 - Theme Wechsler wie [sakura.css](https://oxal.org/projects/sakura/demo/ "Sakura css example")
 - [Such Modus](https://daily-dev-tips.com/posts/eleventy-creating-a-static-javascript-search/ "Devdaily tips")
 - Styling wie [papermod](https://adityatelange.github.io/hugo-PaperMod/ "papermod theme"):
-  - Mit Archiv
+  - Mit Archiv (all Posts nach datum sortiert)
   - Home
   - Breadcrumb
+- [Single page](https://themes.getbootstrap.com/preview/?theme_id=60718): Layout, Styling und anordnung der Bilder
+- Share button => link kopieren und für die gängisten Social medias??
