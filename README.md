@@ -30,7 +30,7 @@
 - Auf Deutsch alles ✅
 - Home mit kurzes about mit github code, rss und buy me a coffee
 - Footer mit verlinkung auf mkt-webdesign
-- Favicon wählen
+- Favicon wählen ✅
 - Mehr jüngste Posts
   - Sport: plan aufschreiben übung,gewichte, wdh, rir etc
   - Koreanisch: die Flashcards und gelernte vokabeln von Solo Leveling etc
