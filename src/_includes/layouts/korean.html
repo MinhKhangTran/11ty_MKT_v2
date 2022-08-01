@@ -1,3 +1,12 @@
 {% extends "layouts/base.html" %}{% set blogListItems = pagination.items %} {%
-block content %} {% include "partials/blog-list.html" %} {% include
-"partials/pagination.html" %} {% endblock %}
+block content %}
+<div class="container | mt-3">
+  <p class="body-sm | text-zinc-800">
+    Mein vergeblicher Versuch koreanisch zu lernen.
+  </p>
+  <p class="body-sm | text-zinc-800">
+    Hier schreibe ich über meinen Fortschritt in der koreanischen Sprache.
+  </p>
+</div>
+{% include "partials/blog-list.html" %} {% include "partials/pagination.html" %}
+{% endblock %}

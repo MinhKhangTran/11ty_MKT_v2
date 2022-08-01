@@ -1,9 +1,61 @@
+{% set metaPrefix = metainfo %} {% if metaContent %} {% set metaPrefix =
+metaContent %} {% endif %}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      content="{{metaContent.metaDescContent}}"
+      name="{{metaContent.metaDesc}}"
+    />
+    <meta
+      content="{{metaContent.metaOgTitleContent}}"
+      property="{{metaContent.metaOgTitle}}"
+    />
+    <meta
+      content="{{metaContent.metaOgDescContent}}"
+      property="{{metaContent.metaOgDesc}}"
+    />
+    <meta
+      content="{{metaContent.metaOgImageContent}}"
+      property="{{metaContent.metaOgImage}}"
+    />
+    <meta
+      content="{{metaContent.metaTwitterTitleContent}}"
+      property="{{metaContent.metaTwitterTitle}}"
+    />
+    <meta
+      content="{{metaContent.metaTwitterDescContent}}"
+      property="{{metaContent.metaTwitterDesc}}"
+    />
+    <meta
+      content="{{metaContent.metaTwitterImageContent}}"
+      property="{{metaContent.metaTwitterImage}}"
+    />
+    <meta property="og:type" content="website" />
+    <meta content="summary_large_image" name="twitter:card" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicon-16x16.png"
+    />
 
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}" />
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>

@@ -18,8 +18,6 @@
 ~~All posts with tags to interpolate them accordingly~~
 ~~with alpine searching~~
 
-
-
 ~~at first in English~~
 
 ~~Simple Design~~
@@ -27,9 +25,9 @@
 ~~- Change style? with pages? with subdomains?~~
 ~~- Theme changer? dark, light, etc~~
 
-
 ## TODO:
-- Auf Deutsch alles
+
+- Auf Deutsch alles ✅
 - Home mit kurzes about mit github code, rss und buy me a coffee
 - Footer mit verlinkung auf mkt-webdesign
 - Favicon wählen
@@ -39,7 +37,7 @@
   - Web Design: Tägliche Learnings sachen Design oder code, Markdown tips, emmet tips, umschließen vs code etc
   - Produktivität => Als neue kategorie??
 - Theme Wechsler wie [sakura.css](https://oxal.org/projects/sakura/demo/ "Sakura css example")
-- [Such Modus](https://daily-dev-tips.com/posts/eleventy-creating-a-static-javascript-search/ "Devdaily tips") 
+- [Such Modus](https://daily-dev-tips.com/posts/eleventy-creating-a-static-javascript-search/ "Devdaily tips")
 - Styling wie [papermod](https://adityatelange.github.io/hugo-PaperMod/ "papermod theme"):
   - Mit Archiv
   - Home

@@ -2,21 +2,21 @@
   "navigations": [
     {
       "url": "/",
-      "navigation": "home"
+      "navigation": "Home"
     },
     {
       "url": "/lifting/",
-      "navigation": "lifting"
+      "navigation": "Powerlifting"
     },
     {
       "url": "/korean/",
-      "navigation": "korean"
+      "navigation": "Koreanisch"
     },
     {
       "url": "/web/",
-      "navigation": "web development"
+      "navigation": "Web Design"
     }
   ],
   "brand": "MKT",
-  "subheading": "My personal blog and playground"
+  "subheading": "Willkommen auf meinem Blog"
 }

@@ -1,0 +1,18 @@
+{
+  "metaDesc": "description",
+  "metaDescContent": "Mein Blog über meinen Fortschritt in Powerlifting, Koreanisch und Web Design",
+  "metaOgTitle": "og:title",
+  "metaOgTitleContent": "Mein Blog über meinen Fortschritt in Powerlifting, Koreanisch und Web Design",
+  "metaOgDesc": "og:description",
+  "metaOgDescContent": "Mein Blog über meinen Fortschritt in Powerlifting, Koreanisch und Web Design",
+  "metaOgImage": "og:image",
+  "metaOgImageContent": "/images/ogDesc.jpg",
+  "metaTwitterTitle": "twitter:title",
+  "metaTwitterTitleContent": "Mein Blog über meinen Fortschritt in Powerlifting, Koreanisch und Web Design",
+  "metaTwitterDesc": "twitter:description",
+  "metaTwitterDescContent": "Mein Blog über meinen Fortschritt in Powerlifting, Koreanisch und Web Design",
+  "metaTwitterImage": "twitter:image",
+  "metaTwitterImageContent": "/images/ogDesc.jpg",
+  "faviconIco": "/images/favicon.ico",
+  "webclip": "/images/favicon-32x32.png"
+}

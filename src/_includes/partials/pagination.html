@@ -10,10 +10,7 @@ pagination.href.next or pagination.href.previous %}
           href="{{ pagination.href.previous }}"
           data-direction="backwards"
         >
-          <span
-            >{{ paginationPrevText if paginationPrevText else 'Previous'
-            }}</span
-          >
+          <span>Zurück</span>
         </a>
       </div>
       {% endif %} {% if pagination.href.next %}
@@ -23,9 +20,7 @@ pagination.href.next or pagination.href.previous %}
           href="{{ pagination.href.next }}"
           data-direction="forwards"
         >
-          <span
-            >{{ paginationNextText if paginationNextText else 'Next' }}</span
-          >
+          <span>Vor</span>
         </a>
       </div>
       {% endif %}

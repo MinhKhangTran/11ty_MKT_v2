@@ -1,4 +1,5 @@
-{% extends "layouts/base.html" %} {% block content %}
+{% if page_meta %} {% set metaContent = page_meta %} {% endif %} {% extends
+"layouts/base.html" %} {% block content %}
 
 <section id="blog__item" aria-label="blog section" class="container">
   <div class="text-zinc-600">
@@ -12,7 +13,7 @@
 </section>
 
 <div class="container | back__button">
-  <a href="/" class="btn">Back to the posts</a>
+  <a href="/" class="btn">Zurück zu den Posts</a>
 </div>
 
 {% endblock %}

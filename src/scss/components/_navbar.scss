@@ -27,14 +27,15 @@ nav {
     }
   }
   p {
-    border-bottom: 1px solid $zinc-900;
     padding-bottom: 0.5rem;
   }
   ul {
-    margin-top: 1rem;
+    border-top: 1px solid $zinc-900;
+    padding-top: 0.5rem;
     column-gap: math.div(64rem, 16);
     row-gap: math.div(12rem, 16);
     flex-wrap: wrap;
+    margin-block: 0.5rem 1rem;
     li {
       text-transform: capitalize;
       a {
