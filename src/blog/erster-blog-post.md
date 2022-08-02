@@ -64,7 +64,7 @@ Als Content Management System verwende ich netlifyCMS. Es ist Open Source und ko
 
 Die Implementierung war bisher einfach. Ich mag es.
 
-## Future goals
+## Zukunftspläne
 
 Für die Zukunft plane ich, einige Funktionen wie Suche- oder Kommentarfunktionen hinzuzufügen.
 

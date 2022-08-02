@@ -1,11 +1,16 @@
 {% extends "layouts/base.html" %}{% set blogListItems = pagination.items %} {%
 block content %}
-<div class="container | mt-3">
-  <p class="body-sm | text-zinc-800">Willkommen auf meinem Blog.</p>
-  <p class="body-sm | text-zinc-800">
-    Hier schreibe ich über meinen Fortschritt in Powerlifting, in der
-    koreanischen Sprache und im Web Design
-  </p>
-</div>
-{% include "partials/blog-list.html" %} {% include "partials/pagination.html" %}
-{% endblock %}
+<article id="intro" class="container | mt-3 d-flex">
+  <div class="intro__img">
+    <img src="/images/mkt.png" alt="Minh Khang Tran's Bild" />
+  </div>
+  <div class="intro__text">
+    <p class="body-sm | text-zinc-800">Willkommen auf meinem Blog.</p>
+    <p class="body-sm | text-zinc-800">
+      Hier schreibe ich über meinen Fortschritt in Powerlifting, in der
+      koreanischen Sprache und im Web Design
+    </p>
+  </div>
+</article>
+{% include "partials/navbar.html" %} {% include "partials/blog-list.html" %} {%
+include "partials/pagination.html" %} {% endblock %}

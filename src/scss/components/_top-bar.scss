@@ -1,0 +1,29 @@
+@use "sass:math";
+
+header {
+  padding-top: math.div(24rem, 16);
+  @include md {
+    padding-top: math.div(48rem, 16);
+  }
+  a {
+    text-decoration: none;
+    color: $blue-600;
+  }
+  button {
+    border: none;
+    border-radius: 4px;
+    gap: 0.5rem;
+    padding-left: 0.5rem;
+    background-color: $zinc-100;
+    @include md {
+      background-color: $zinc-200;
+      width: 190px;
+    }
+    span {
+      display: none;
+      @include md {
+        display: inline;
+      }
+    }
+  }
+}

@@ -2,7 +2,7 @@
   "navigations": [
     {
       "url": "/",
-      "navigation": "Home"
+      "navigation": "Alle Posts"
     },
     {
       "url": "/lifting/",

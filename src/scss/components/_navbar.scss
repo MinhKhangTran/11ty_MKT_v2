@@ -1,36 +1,37 @@
 @use "sass:math";
+#intro {
+  border-top: 1px solid $zinc-900;
+  padding-top: 1.5rem;
+  gap: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  @include lg {
+    flex-direction: row;
+  }
 
+  .intro__img {
+    @include lg {
+      width: 16.67%;
+    }
+    img {
+      width: 80px;
+      aspect-ratio: 1;
+    }
+  }
+  .intro__text {
+    text-align: center;
+    @include lg {
+      text-align: left;
+    }
+  }
+}
 nav {
-  padding-top: math.div(24rem, 16);
+  padding-top: math.div(16rem, 16);
   @include md {
-    padding-top: math.div(48rem, 16);
+    padding-top: math.div(32rem, 16);
   }
-  a {
-    text-decoration: none;
-    color: $blue-600;
-  }
-  button {
-    border: none;
-    border-radius: 4px;
-    gap: 0.5rem;
-    padding-left: 0.5rem;
-    background-color: $zinc-100;
-    @include md {
-      background-color: $zinc-200;
-      width: 190px;
-    }
-    span {
-      display: none;
-      @include md {
-        display: inline;
-      }
-    }
-  }
-  p {
-    padding-bottom: 0.5rem;
-  }
+
   ul {
-    border-top: 1px solid $zinc-900;
     padding-top: 0.5rem;
     column-gap: math.div(64rem, 16);
     row-gap: math.div(12rem, 16);
