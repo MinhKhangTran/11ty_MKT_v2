@@ -2,7 +2,7 @@
 title: Erster Blog Post
 displayTitle: Erster Blog Post
 description: Dies ist mein persönlicher Blog und mein Spielplatz. Ich habe diese Website von Grund auf und alleine aufgebaut. Ich möchte einfach ein paar Blogbeiträge über meine Reise im Powerlifting, Koreanisch lernen und Webentwicklung.
-tags: web development
+tags: web design
 tags_href: web
 date: 2022-08-01
 page_meta:

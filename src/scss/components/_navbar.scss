@@ -1,6 +1,5 @@
 @use "sass:math";
 #intro {
-  border-top: 1px solid $zinc-900;
   padding-top: 1.5rem;
   gap: 1.5rem;
   flex-direction: column;
@@ -10,12 +9,12 @@
   }
 
   .intro__img {
-    @include lg {
-      width: 16.67%;
-    }
     img {
       width: 80px;
       aspect-ratio: 1;
+      @include lg {
+        width: 120px;
+      }
     }
   }
   .intro__text {
@@ -25,7 +24,7 @@
     }
   }
 }
-nav {
+#navigation {
   padding-top: math.div(16rem, 16);
   @include md {
     padding-top: math.div(32rem, 16);

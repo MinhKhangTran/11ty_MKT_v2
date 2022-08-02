@@ -1,28 +1,56 @@
 @use "sass:math";
 
 #blog__item {
-  margin-block: math.div(40rem, 16);
-  @include md {
-    margin-block: math.div(48rem, 16);
+  nav {
+    padding-block: 1rem 2rem;
+    @include lg {
+      padding-block: 1rem 4rem;
+    }
+    .breadcrumb {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      margin-bottom: 1rem;
+      padding: 0;
+      &-item {
+        text-transform: capitalize;
+        .active {
+          color: $zinc-800;
+        }
+      }
+    }
+    .breadcrumb-item + .breadcrumb-item {
+      padding-left: 0.5rem;
+    }
+    .breadcrumb-item + .breadcrumb-item::before {
+      color: #6c757d;
+      content: "/";
+      float: left;
+      padding-right: 0.5rem;
+    }
   }
-
   p {
-    margin-top: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+  .tag {
+    text-transform: capitalize;
+    color: $zinc-600;
   }
   h1 {
-    padding-block: 1rem;
+    padding-block: 1rem math.div(40rem, 16);
+    text-align: center;
   }
-  h2,
-  h3 {
-    margin-top: 2rem;
+  h2 {
+    margin-block: 2rem 1rem;
   }
   h3 {
+    margin-block: 1.5rem 1rem;
     font-size: 2rem;
     font-weight: bold;
   }
   figure {
     margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
     figcaption {
       text-align: center;
       font-style: italic;
@@ -42,6 +70,37 @@
     font-style: italic;
   }
 }
-.back__button {
-  margin-bottom: 2rem;
+#blog__intro {
+  padding-block: math.div(80rem, 16) math.div(48rem, 16);
+
+  gap: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  @include lg {
+    flex-direction: row;
+    padding-block: math.div(104rem, 16) math.div(64rem, 16);
+  }
+
+  .intro__img {
+    img {
+      width: 80px;
+      aspect-ratio: 1;
+      @include lg {
+        width: 120px;
+      }
+    }
+  }
+  .intro__text {
+    text-align: center;
+    @include lg {
+      text-align: left;
+    }
+  }
+}
+.button__navigation {
+  border-top: 1px solid $zinc-900;
+  margin-bottom: math.div(48rem, 16);
+  @include lg {
+    margin-bottom: math.div(64rem, 16);
+  }
 }

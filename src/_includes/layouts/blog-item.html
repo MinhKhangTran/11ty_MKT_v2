@@ -2,18 +2,39 @@
 "layouts/base.html" %} {% block content %}
 
 <section id="blog__item" aria-label="blog section" class="container">
-  <div class="text-zinc-600">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/{{tags_href}}">{{tags}}</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{title}}</li>
+    </ol>
+  </nav>
+  <div class="text-zinc-600 text-center">
+    <a href="/{{tags_href}}" class="tag">{{tags}} - </a>
     <time datetime="{{date | dateFilter}}">{{date | dateFilter}}</time>
   </div>
   <h1 class="heading-1 | text-zinc-900">{{title}}</h1>
-  <a href="/{{tags_href}}">
-    <span class="pill__{{tags_href}} | rounded">{{tags}} </span>
-  </a>
+
   {{content |safe}}
 </section>
+<article id="blog__intro" class="container | mt-3 d-flex">
+  <div class="intro__img">
+    <img src="/images/mkt.png" alt="Minh Khang Tran's Bild" />
+  </div>
+  <div class="intro__text">
+    <p class="body-sm | text-zinc-800">Willkommen auf meinem Blog.</p>
+    <p class="body-sm | text-zinc-800">
+      Hier schreibe ich über meinen Fortschritt in Powerlifting, in der
+      koreanischen Sprache und im Web Design
+    </p>
+  </div>
+</article>
+<div class="button__navigation | d-flex justify-space-between container">
+  <!-- prev button -->
 
-<div class="container | back__button">
-  <a href="/" class="btn">Zurück zu den Posts</a>
+  <div class="">
+    <a href="/" class="">Alle Posts</a>
+  </div>
+  <!-- next button -->
 </div>
 
 {% endblock %}
