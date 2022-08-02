@@ -33,14 +33,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("liftingBlogs", (collection) => {
     return collection
       .getFilteredByGlob("./src/blog/*.md")
-      .filter((x) => x.data.tags == "lifting")
+      .filter((x) => x.data.tags == "powerlifting")
       .reverse();
   });
   // add web blogs to collections
   eleventyConfig.addCollection("webBlogs", (collection) => {
     return collection
       .getFilteredByGlob("./src/blog/*.md")
-      .filter((x) => x.data.tags == "web development")
+      .filter((x) => x.data.tags == "web design")
       .reverse();
   });
 
