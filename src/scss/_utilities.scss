@@ -30,3 +30,8 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
 .mt-3 {
   margin-top: 1.5rem;
 }
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-inline: auto;
+}

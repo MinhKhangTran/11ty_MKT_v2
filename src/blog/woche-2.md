@@ -35,9 +35,16 @@ page_meta:
 
 <figure>
 
-<img src="/images/woche-2/woche-2-tag-1-uk-2.png" alt="Trainingsplan zu der Woche 2 Tag 1 Unterkörper 2">
+<img class="img-fluid" src="/images/woche-2/woche-2-tag-1-uk-2.png" alt="Trainingsplan zu der Woche 2 Tag 1 Unterkörper 2">
 <figcaption>Tag 1 Unterkörper 2 - 01.08.2022</figcaption>
 
 </figure>
 
-### Meine Bewertung
+## Tag 2 Oberkörper 2 - 02.08.2022
+
+<figure>
+
+<img class="img-fluid" src="/images/woche-2/woche-2-tag-2-ok-1.png" alt="Trainingsplan zu der Woche 2 Tag 2 Oberkörper 1">
+<figcaption>Tag 2 Oberkörper 1 - 02.08.2022</figcaption>
+
+</figure>
