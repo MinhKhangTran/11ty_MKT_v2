@@ -1,14 +1,30 @@
 // partial Tailwind colors
+:root {
+  --clr-bcg: #f4f4f5;
+  --clr-font-dark: #18181b;
+  --clr-font-light: #27272a;
+  --clr-font-lighter: #52525b;
+  --clr-primary: #2563eb;
+  --clr-primary-light: #60a5fa;
+}
+.darkmode {
+  --clr-bcg: #232325;
+  --clr-font-dark: #f4f4f5;
+  --clr-font-light: #e4e4e7;
+  --clr-font-lighter: #d4d4d8;
+  --clr-primary: #3087ff;
+  --clr-primary-light: #3087ff;
+}
 // Gray
-$zinc-100: #f4f4f5;
+$zinc-100: var(--clr-bcg);
 $zinc-200: #e4e4e7;
 $zinc-500: #71717a;
-$zinc-600: #52525b;
-$zinc-800: #27272a;
-$zinc-900: #18181b;
+$zinc-600: var(--clr-font-lighter);
+$zinc-800: var(--clr-font-light);
+$zinc-900: var(--clr-font-dark);
 // Blue
-$blue-400: #60a5fa;
-$blue-600: #2563eb;
+$blue-400: var(--clr-primary-light);
+$blue-600: var(--clr-primary);
 // Red
 $red-100: #fee2e2;
 $red-700: #b91c1c;

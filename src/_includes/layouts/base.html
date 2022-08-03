@@ -70,6 +70,8 @@ metaContent %} {% endif %}
       </main>
       {% include "partials/footer.html" %}
     </div>
+    <!-- Load own JS -->
+    <script src="{{ '/js/index.js' | url }}"></script>
     <script>
       if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", (user) => {

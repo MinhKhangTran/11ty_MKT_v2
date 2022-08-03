@@ -14,8 +14,9 @@
       padding: 0;
       &-item {
         text-transform: capitalize;
-        .active {
-          color: $zinc-800;
+        color: $zinc-800;
+        a {
+          color: $blue-600;
         }
       }
     }
@@ -23,7 +24,7 @@
       padding-left: 0.5rem;
     }
     .breadcrumb-item + .breadcrumb-item::before {
-      color: #6c757d;
+      color: $zinc-600;
       content: "/";
       float: left;
       padding-right: 0.5rem;
@@ -31,6 +32,7 @@
   }
   p {
     margin-bottom: 1.25rem;
+    color: $zinc-600;
   }
   .tag {
     text-transform: capitalize;
@@ -42,11 +44,13 @@
   }
   h2 {
     margin-block: 2rem 1rem;
+    color: $zinc-800;
   }
   h3 {
     margin-block: 1.5rem 1rem;
     font-size: 2rem;
     font-weight: bold;
+    color: $zinc-800;
   }
   figure {
     margin-top: 1.5rem;
