@@ -777,15 +777,18 @@ header a {
   text-decoration: none;
   color: var(--clr-primary);
 }
-header .toggler {
+header .toggler,
+header .search {
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
-header .toggler svg path {
+header .toggler svg path,
+header .search svg path {
   transition: all 0.3s ease;
   fill: var(--clr-font-light);
 }
-header .toggler:hover svg path {
+header .toggler:hover svg path,
+header .search:hover svg path {
   fill: var(--clr-font-lighter);
 }

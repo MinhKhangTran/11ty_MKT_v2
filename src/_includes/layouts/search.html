@@ -1,0 +1,18 @@
+{% extends "layouts/base.html" %}{% block content %}
+
+<main id="main-content" class="container | mt-3 d-flex" tabindex="-1">
+  <section class="[ post__body ] [ pad-top-700 gap-bottom-900 ]">
+    <div class="[ inner-wrapper ] [ sf-flow ]">
+      <h3>Suche nach passenden Blogposts</h3>
+      <input
+        autocomplete="off"
+        type="search"
+        id="search"
+        placeholder="Search for tips"
+      />
+      <ul id="results"></ul>
+    </div>
+  </section>
+</main>
+<script defer type="text/javascript" src="/js/search.js"></script>
+{% endblock %}

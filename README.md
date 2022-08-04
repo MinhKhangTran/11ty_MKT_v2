@@ -39,11 +39,30 @@
   - Koreanisch: die Flashcards und gelernte vokabeln von Solo Leveling etc
   - Web Design: Tägliche Learnings sachen Design oder code, Markdown tips, emmet tips, umschließen vs code etc
   - Produktivität => Als neue kategorie??
-- Theme Wechsler wie [sakura.css](https://oxal.org/projects/sakura/demo/ "Sakura css example")
-- [Such Modus](https://daily-dev-tips.com/posts/eleventy-creating-a-static-javascript-search/ "Devdaily tips")
+- ~~Theme Wechsler wie [sakura.css](https://oxal.org/projects/sakura/demo/ "Sakura css example")~~ Dark Mode ✅
+- [Such Modus](https://daily-dev-tips.com/posts/eleventy-creating-a-static-javascript-search/ "Devdaily tips") ✅
 - Styling wie [papermod](https://adityatelange.github.io/hugo-PaperMod/ "papermod theme"):
-  - Mit Archiv (all Posts nach datum sortiert)
-  - Home
-  - Breadcrumb
-- [Single page](https://themes.getbootstrap.com/preview/?theme_id=60718): Layout, Styling und anordnung der Bilder
+  - ~~Mit Archiv (all Posts nach datum sortiert)~~
+  - Home ✅
+  - Breadcrumb ✅
+- [Single page](https://themes.getbootstrap.com/preview/?theme_id=60718): Layout, Styling und anordnung der Bilder ✅
 - Share button => link kopieren und für die gängisten Social medias??
+
+## Themenidee
+
+### Webdesign
+
+- Dark mode
+- Suchfunktion
+
+### Powerlifting
+
+- OKR
+- Dehnübungen
+- Lifts zeigen
+
+### Koreanisch
+
+- OKR
+- Flashcards
+- Blog von naver

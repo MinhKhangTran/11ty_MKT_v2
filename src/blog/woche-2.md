@@ -4,7 +4,7 @@ displayTitle: Woche 2 Powerlifting Ballerplan
 description: Woche 2 Powerlifting Ballerplan
 tags: powerlifting
 tags_href: lifting
-date: 2022-08-01
+date: 2022-08-02
 page_meta:
   metaDesc: description
   metaDescContent: Woche 2 Powerlifting Ballerplan
