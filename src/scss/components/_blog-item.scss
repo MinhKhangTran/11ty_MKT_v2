@@ -153,6 +153,16 @@ h6 .blog-header-link:focus svg {
   visibility: visible;
 }
 
+h1 .blog-header-link svg path,
+h2 .blog-header-link svg path,
+h3 .blog-header-link svg path,
+h4 .blog-header-link svg path,
+h5 .blog-header-link svg path,
+h6 .blog-header-link svg path{
+  fill: var(--clr-font-light);
+}
+
+
 .routeSkipHeading{
   position:relative;
 }
@@ -166,6 +176,7 @@ h6 .blog-header-link:focus svg {
 .routeSkipLink:before{
   content:"\21FD";
   display:block;
+  color: $zinc-800;
 }
 .routeSkipLink:focus,.routeSkipLink:hover{
   opacity:1;
