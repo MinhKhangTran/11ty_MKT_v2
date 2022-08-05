@@ -117,3 +117,38 @@
     }
   }
 }
+
+
+.blog-header-link.before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+  padding-right: 4px;
+}
+.blog-header-link.after {
+  display: inline-block;
+  padding-left: 4px;
+}
+h1 .blog-header-link svg,
+h2 .blog-header-link svg,
+h3 .blog-header-link svg,
+h4 .blog-header-link svg,
+h5 .blog-header-link svg,
+h6 .blog-header-link svg {
+  visibility: hidden;
+}
+h1:hover .blog-header-link svg,
+h2:hover .blog-header-link svg,
+h3:hover .blog-header-link svg,
+h4:hover .blog-header-link svg,
+h5:hover .blog-header-link svg,
+h6:hover .blog-header-link svg,
+h1 .blog-header-link:focus svg,
+h2 .blog-header-link:focus svg,
+h3 .blog-header-link:focus svg,
+h4 .blog-header-link:focus svg,
+h5 .blog-header-link:focus svg,
+h6 .blog-header-link:focus svg {
+  visibility: visible;
+}
