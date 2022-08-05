@@ -1,14 +1,17 @@
 {% extends "layouts/base.html" %}{% block content %}
 
 <main id="main-content" class="container | mt-3 d-flex" tabindex="-1">
-  <section class="[ post__body ] [ pad-top-700 gap-bottom-900 ]">
-    <div class="[ inner-wrapper ] [ sf-flow ]">
-      <h3>Suche nach passenden Blogposts</h3>
+  <section id="search-section" class="mt-3">
+    <div class="">
+      <h1 class="text-zinc-800">Suchen</h1>
+      <label class="text-zinc-800" for="search"
+        >Suche nach passenden Blogposts</label
+      >
       <input
         autocomplete="off"
         type="search"
         id="search"
-        placeholder="Search for tips"
+        placeholder="Suche ..."
       />
       <ul id="results"></ul>
     </div>

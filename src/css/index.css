@@ -792,3 +792,18 @@ header .toggler:hover svg path,
 header .search:hover svg path {
   fill: var(--clr-font-lighter);
 }
+
+#search-section {
+  padding-top: 1.5rem;
+  width: 100%;
+  height: calc(100vh - 250px);
+}
+#search-section h1 {
+  margin-bottom: 1.5rem;
+}
+#search-section input {
+  width: 100%;
+}
+#search-section li {
+  color: var(--clr-font-light);
+}

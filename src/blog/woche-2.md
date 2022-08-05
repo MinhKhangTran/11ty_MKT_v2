@@ -4,7 +4,7 @@ displayTitle: Woche 2 Powerlifting Ballerplan
 description: Woche 2 Powerlifting Ballerplan
 tags: powerlifting
 tags_href: lifting
-date: 2022-08-02
+date: 2022-08-04
 page_meta:
   metaDesc: description
   metaDescContent: Woche 2 Powerlifting Ballerplan
@@ -48,3 +48,20 @@ page_meta:
 <figcaption>Tag 2 Oberkörper 1 - 02.08.2022</figcaption>
 
 </figure>
+
+## Tag 3 Unterkörper 1 - 04.08.2022
+
+<figure>
+
+<img class="img-fluid" src="/images/woche-2/woche-2-tag-3-uk-1.png" alt="Trainingsplan zu der Woche 2 Tag 3 Unterkörper 1">
+<figcaption>Tag 3 Unterkörper 1 - 04.08.2022</figcaption>
+
+</figure>
+
+\*Beim vierten Satz im Deadlift sind mir die Zughilfen gerissen. Da habe ich nur 3 Wiederholungen gemacht 🥲.
+
+Bei dieser Einheit habe ich meinen neuen Inzer Singlet ausprobiert. Ein Training mit einem Singlet ist ziemlich gut. Fühlt sich eng und warm an. Der Singlet von Inzer ist üblicherweise sehr kurz untenrum. Aber so kann man seine Beine flexen 😊.
+
+Da ich momentan keine Beine habe, fällt es mir jetzt leichter Beine aufzubauen, weil jetzt jeder meine Beine sehen kann mit dem Singlet.
+
+Arnold Schwarzenegger Strategie 💪.

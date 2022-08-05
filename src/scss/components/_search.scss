@@ -1,0 +1,16 @@
+@use "sass:math";
+
+#search-section {
+  padding-top: 1.5rem;
+  width: 100%;
+  height: calc(100vh - 250px);
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+  input {
+    width: 100%;
+  }
+  li {
+    color: $zinc-800;
+  }
+}

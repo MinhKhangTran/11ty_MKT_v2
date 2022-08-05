@@ -22,12 +22,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
     let result = data.filter((name) => match.test(name.title));
     if (result.length == 0) {
       const li = document.createElement("li");
-      li.innerHTML = `No results found 😢`;
+      li.innerHTML = `Keine Ergebnisse gefunden 😢`;
       results.appendChild(li);
     }
     result.forEach((e) => {
       const li = document.createElement("li");
-      li.innerHTML = `<a href="${e.url}">${e.title}</a>`;
+      li.innerHTML = `<a class="text-zinc-800" href="${e.url}">${e.title}</a>`;
       results.appendChild(li);
     });
   };
