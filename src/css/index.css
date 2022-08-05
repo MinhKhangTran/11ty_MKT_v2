@@ -671,6 +671,17 @@ footer {
     margin-bottom: 4rem;
   }
 }
+.button__navigation .next__btn {
+  margin-inline-start: auto;
+}
+.button__navigation .next_post_text {
+  display: none;
+}
+@media (min-width: 768px) {
+  .button__navigation .next_post_text {
+    display: inline;
+  }
+}
 
 #blog__list {
   margin-block: 2.5rem;
@@ -806,4 +817,19 @@ header .search:hover svg path {
 }
 #search-section li {
   color: var(--clr-font-light);
+}
+
+.up.show {
+  visibility: visible;
+}
+
+.up {
+  padding: 0.5rem;
+  position: fixed;
+  right: 3%;
+  bottom: 4%;
+  background-color: hsla(221deg, 83%, 53%, 0.5);
+  border-radius: 4px;
+  visibility: hidden;
+  z-index: 99;
 }

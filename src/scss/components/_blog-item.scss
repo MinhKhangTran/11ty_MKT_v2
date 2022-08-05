@@ -107,4 +107,13 @@
   @include lg {
     margin-bottom: math.div(64rem, 16);
   }
+  .next__btn {
+    margin-inline-start: auto;
+  }
+  .next_post_text {
+    display: none;
+    @include md {
+      display: inline;
+    }
+  }
 }

@@ -1,0 +1,15 @@
+@use "sass:math";
+
+.up.show {
+  visibility: visible;
+}
+.up {
+  padding: 0.5rem;
+  position: fixed;
+  right: 3%;
+  bottom: 4%;
+  background-color: hsla(221, 83%, 53%, 0.5);
+  border-radius: 4px;
+  visibility: hidden;
+  z-index: 99;
+}

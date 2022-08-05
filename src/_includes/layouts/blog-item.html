@@ -30,11 +30,26 @@
 </article>
 <div class="button__navigation | d-flex justify-space-between container">
   <!-- prev button -->
+  {%- set nextPost = collections.blog | getNextCollectionItem(page) %} {%- if
+  nextPost %}
 
-  <div class="">
-    <a href="/" class="text-blue-600">Alle Posts</a>
-  </div>
+  <a class="btn | mt-3" href="{{ nextPost.url | url }}">
+    <span>←</span>
+    <span class="next_post_text">{{ nextPost.data.title }}</span>
+  </a>
+
+  {% endif %}
+
   <!-- next button -->
+  {%- set previousPost = collections.blog | getPreviousCollectionItem(page) %}
+  {%- if previousPost %}
+
+  <a class="btn next__btn | mt-3" href="{{ previousPost.url | url }}">
+    <span class="next_post_text">{{ previousPost.data.title }}</span>
+    <span>→</span>
+  </a>
+
+  {% endif %}
 </div>
 
 {% endblock %}
