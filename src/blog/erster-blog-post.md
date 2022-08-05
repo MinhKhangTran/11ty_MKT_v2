@@ -35,11 +35,11 @@ page_meta:
 
 Dies ist mein persönlicher Blog und mein Spielplatz. Ich habe diese Website von Grund auf und alleine aufgebaut. Ich möchte einfach ein paar Blogbeiträge über meine Reise im Powerlifting, Koreanisch lernen und Webentwicklung schreiben.
 
-## Meine Rolle
+<h2 style="position: relative;" id="meine-rolle"><a href="#meine-rolle" aria-label="Meine Rolle Permalink" class="blog-header-link before"><svg aria-hidden="true" focusable="false" height="20" version="1.1" viewbox="0 0 16 16" width="20"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Meine Rolle</h2>
 
 Ich war der Designer und der Entwickler. Und ich bin auch der Besitzer und Administrator dieser Seite 😊.
 
-## Problem
+<h2 style="position: relative;" id="problem"><a href="#problem" aria-label="problem Permalink" class="blog-header-link before"><svg aria-hidden="true" focusable="false" height="20" version="1.1" viewbox="0 0 16 16" width="20"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Problem</h2>
 
 Ich hatte keine Seite, auf der ich über meine Gedanken schreiben konnte.
 
@@ -52,7 +52,7 @@ Letzteres mag eine Lüge sein 🥸...
 Aber ich möchte immer zugänglich bleiben.
 Auf dieser Seite kann ich tun, was ich will. Starke Animationen oder ausgefallenes Javascript-Zeug verwenden.
 
-## Meine Lösung
+<h2 style="position: relative;" id="meine-loesung"><a href="#meine-loesung" aria-label="Meine loesung Permalink" class="blog-header-link before"><svg aria-hidden="true" focusable="false" height="20" version="1.1" viewbox="0 0 16 16" width="20"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Meine Lösung</h2>
 
 Um diese Seite zu erstellen, habe ich den Static Site Generator Eleventy verwendet. Eleventy erzeugt mit Markdown einfache HTML-Seiten.
 
@@ -64,7 +64,7 @@ Als Content Management System verwende ich netlifyCMS. Es ist Open Source und ko
 
 Die Implementierung war bisher einfach. Ich mag es.
 
-## Zukunftspläne
+<h2 style="position: relative;" id="zukunftsplaene"><a href="#zukunftsplaene" aria-label="zukunftsplaene Permalink" class="blog-header-link before"><svg aria-hidden="true" focusable="false" height="20" version="1.1" viewbox="0 0 16 16" width="20"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Zukunftspläne</h2>
 
 Für die Zukunft plane ich, einige Funktionen wie Suche- oder Kommentarfunktionen hinzuzufügen.
 
