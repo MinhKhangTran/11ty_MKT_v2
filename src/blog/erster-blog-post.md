@@ -31,7 +31,7 @@ page_meta:
 
 </figure>
 
-## Einleitung {#einleitung}
+<h2 id="einleitung"><a href="#einleitung" aria-label="Einleitung Permalink" class="blog-header-link before">Einleitung</a></h2>
 
 Dies ist mein persönlicher Blog und mein Spielplatz. Ich habe diese Website von Grund auf und alleine aufgebaut. Ich möchte einfach ein paar Blogbeiträge über meine Reise im Powerlifting, Koreanisch lernen und Webentwicklung schreiben.
 
