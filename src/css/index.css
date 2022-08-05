@@ -556,6 +556,9 @@ footer {
   padding-bottom: 1rem;
   font-size: 1rem;
 }
+footer a {
+  text-decoration: underline wavy var(--clr-primary);
+}
 
 #blog__item nav {
   padding-block: 1rem 2rem;
@@ -753,7 +756,7 @@ a .pill__web {
   transition: box-shadow 0.35s ease-in-out;
   font-size: 1rem;
   font-weight: 600;
-  background-color: var(--clr-primary-light);
+  background-color: #4477b5;
   color: white;
 }
 @media (min-width: 768px) {

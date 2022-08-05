@@ -1,4 +1,7 @@
 footer {
   padding-bottom: 1rem;
   font-size: 1rem;
+  a {
+    text-decoration: underline wavy var(--clr-primary);
+  }
 }

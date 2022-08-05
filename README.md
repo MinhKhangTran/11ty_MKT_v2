@@ -32,7 +32,7 @@
 - [rss](https://www.11ty.dev/docs/plugins/rss/)
 - [images](https://www.11ty.dev/docs/plugins/image/)
 - [TOC](https://github.com/jdsteinbach/eleventy-plugin-toc#readme)
-- Footer mit verlinkung auf mkt-webdesign
+- Footer mit verlinkung auf mkt-webdesign ✅
 - Favicon wählen ✅
 - Mehr jüngste Posts
   - Powerlifting: plan aufschreiben übung,gewichte, wdh, rir etc
@@ -46,7 +46,7 @@
   - Home ✅
   - Breadcrumb ✅
 - [Single page](https://themes.getbootstrap.com/preview/?theme_id=60718): Layout, Styling und anordnung der Bilder ✅
-- Share button => link kopieren und für die gängisten Social medias??
+- ~~Share button => link kopieren und für die gängisten Social medias??~~
 
 ## Themenidee
 
