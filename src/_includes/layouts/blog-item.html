@@ -4,6 +4,7 @@
 <section id="blog__item" aria-label="blog section" class="container">
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Posts</a></li>
       <li class="breadcrumb-item"><a href="/{{tags_href}}">{{tags}}</a></li>
       <li class="breadcrumb-item active" aria-current="page">{{title}}</li>
     </ol>
@@ -13,8 +14,14 @@
     <time datetime="{{date | dateFilter}}">{{date | dateFilter}}</time>
   </div>
   <h1 class="heading-1 | text-zinc-900 | routeSkipHeading">
-    <a href="#global-nav" id="skip-main" class="routeSkipLink" aria-label="Skip to global navigation"></a>
-    {{title}}</h1>
+    <a
+      href="#global-nav"
+      id="skip-main"
+      class="routeSkipLink"
+      aria-label="Skip to global navigation"
+    ></a>
+    {{title}}
+  </h1>
 
   {{content |safe}}
 </section>
