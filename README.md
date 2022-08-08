@@ -54,12 +54,18 @@
 
 - Dark mode
 - Suchfunktion
+- Docs erstellung
+- Tipps mit bootstrap etc
+- Figma
 
 ### Powerlifting
 
 - OKR
 - Dehnübungen
 - Lifts zeigen
+- Kampfrichterlizenz schulung
+- Karten system in powerlifting
+- Die prüfungsfragen etc
 
 ### Koreanisch
 
