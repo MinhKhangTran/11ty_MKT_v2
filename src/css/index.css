@@ -607,12 +607,29 @@ footer a {
 #blog__item h2 {
   margin-block: 2rem 1rem;
   color: var(--clr-font-light);
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Heebo", sans-serif;
+  line-height: 100%;
+}
+@media (min-width: 576px) {
+  #blog__item h2 {
+    font-size: 2.5rem;
+  }
 }
 #blog__item h3 {
   margin-block: 1.5rem 1rem;
-  font-size: 2rem;
   font-weight: bold;
   color: var(--clr-font-light);
+  font-size: 1.75rem;
+  font-weight: 500;
+  font-family: "Heebo", sans-serif;
+  line-height: 100%;
+}
+@media (min-width: 576px) {
+  #blog__item h3 {
+    font-size: 2rem;
+  }
 }
 #blog__item figure {
   margin-top: 1.5rem;
@@ -751,7 +768,8 @@ h6 .blog-header-link svg path {
   color: var(--clr-font-light);
 }
 
-.routeSkipLink:focus, .routeSkipLink:hover {
+.routeSkipLink:focus,
+.routeSkipLink:hover {
   opacity: 1;
 }
 

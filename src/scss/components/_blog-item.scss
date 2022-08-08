@@ -45,12 +45,26 @@
   h2 {
     margin-block: 2rem 1rem;
     color: $zinc-800;
+    font-size: math.div(32rem, 16);
+    font-weight: 500;
+    font-family: "Heebo", sans-serif;
+    line-height: 100%;
+    @include sm {
+      font-size: math.div(40rem, 16);
+    }
   }
   h3 {
     margin-block: 1.5rem 1rem;
-    font-size: 2rem;
+
     font-weight: bold;
     color: $zinc-800;
+    font-size: math.div(28rem, 16);
+    font-weight: 500;
+    font-family: "Heebo", sans-serif;
+    line-height: 100%;
+    @include sm {
+      font-size: math.div(32rem, 16);
+    }
   }
   figure {
     margin-top: 1.5rem;
@@ -118,7 +132,6 @@
   }
 }
 
-
 .blog-header-link.before {
   position: absolute;
   top: 0;
@@ -158,32 +171,32 @@ h2 .blog-header-link svg path,
 h3 .blog-header-link svg path,
 h4 .blog-header-link svg path,
 h5 .blog-header-link svg path,
-h6 .blog-header-link svg path{
+h6 .blog-header-link svg path {
   fill: var(--clr-font-light);
 }
 
-
-.routeSkipHeading{
-  position:relative;
+.routeSkipHeading {
+  position: relative;
 }
-.routeSkipLink{
-  display:inline-block;
-  margin-left:-.75em;
-  opacity:0;
-  position:absolute;
-  text-decoration:none;
+.routeSkipLink {
+  display: inline-block;
+  margin-left: -0.75em;
+  opacity: 0;
+  position: absolute;
+  text-decoration: none;
 }
-.routeSkipLink:before{
-  content:"\21FD";
-  display:block;
+.routeSkipLink:before {
+  content: "\21FD";
+  display: block;
   color: $zinc-800;
 }
-.routeSkipLink:focus,.routeSkipLink:hover{
-  opacity:1;
+.routeSkipLink:focus,
+.routeSkipLink:hover {
+  opacity: 1;
 }
 
-@media screen and (max-width:671px){
-  .routeSkipLink{
-    right:0;
+@media screen and (max-width: 671px) {
+  .routeSkipLink {
+    right: 0;
   }
 }
