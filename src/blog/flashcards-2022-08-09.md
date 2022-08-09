@@ -4,7 +4,7 @@ displayTitle: Flashcards von 09.08.2022
 description: Flashcards von 09.08.2022
 tags: koreanisch
 tags_href: korean
-date: 2022-08-08
+date: 2022-08-09
 page_meta:
   metaDesc: description
   metaDescContent: Flashcards von 09.08.2022
