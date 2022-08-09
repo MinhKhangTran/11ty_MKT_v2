@@ -44,4 +44,4 @@ page_meta:
 
 시키다 - make sb do
 
-Aus dem Buch "Topik vocabulary in 50 days for Intermediate" Seite 324.
+Aus dem Buch "Topik vocabulary in 50 days for Intermediate" Seite 325.
