@@ -4,7 +4,7 @@ displayTitle: Woche 3 Powerlifting Ballerplan
 description: Woche 3 Powerlifting Ballerplan
 tags: powerlifting
 tags_href: lifting
-date: 2022-08-08
+date: 2022-08-09
 page_meta:
   metaDesc: description
   metaDescContent: Woche 3 Powerlifting Ballerplan
