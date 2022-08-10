@@ -32,7 +32,7 @@ page_meta:
 
 야단맞다 - be scolded roundly
 
-야단치다 - give a good scoldinf
+야단치다 - give a good scolding
 
 어기다 - break
 
