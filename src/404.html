@@ -35,12 +35,26 @@ desc: "Hier kommen Sie zurück:"
   <body class="bg-white">
     <!-- main markdown -->
     <div>
-      {% include "partials/navbar.html" %}
+        {% extends "layouts/base.html" %}{%
+            block content %}
+            <article id="intro" class="container | mt-3 d-flex">
+              <div class="intro__img">
+                <img src="/images/mkt.png" alt="Minh Khang Tran's Bild" />
+              </div>
+              <div class="intro__text">
+                <h1 class="body-sm | text-zinc-800">Willkommen auf meinem Blog.</h1>
+                <p class="body-sm | text-zinc-800">
+                  Ich bin Minh Khang Tran und schreibe über meinen Fortschritt in
+                  Powerlifting, in der koreanischen Sprache und im Web Design
+                </p>
+              </div>
+            </article>
+            {% include "partials/navbar.html" %}  {% endblock %}
       <main tabindex="-1" id="main-content">
         <section
           id="error"
           aria-label="error"
-          class="wrapper py-lg-5 my-lg-4 py-3 my-3"
+          class="container"
         >
         
           
