@@ -35,8 +35,7 @@ desc: "Hier kommen Sie zurück:"
   <body class="bg-white">
     <!-- main markdown -->
     <div>
-        {% extends "layouts/base.html" %}{%
-            block content %}
+        {% include "partials/top-bar.html" %}
             <article id="intro" class="container | mt-3 d-flex">
               <div class="intro__img">
                 <img src="/images/mkt.png" alt="Minh Khang Tran's Bild" />
@@ -49,7 +48,7 @@ desc: "Hier kommen Sie zurück:"
                 </p>
               </div>
             </article>
-            {% include "partials/navbar.html" %}  {% endblock %}
+            {% include "partials/navbar.html" %}  
       <main tabindex="-1" id="main-content">
         <section
           id="error"
