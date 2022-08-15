@@ -50,13 +50,18 @@
 
 ## Themenidee
 
-### Webdesign
+### Webdesign (eher code snippets)
 
 - Dark mode
 - Suchfunktion
 - Docs erstellung
 - Tipps mit bootstrap etc
 - Figma
+- a11y tools wie cypress oder diese extension
+- 11ty toc
+- svg hover code snippes
+- markdown tipps
+- a11y anchor
 
 ### Powerlifting
 
