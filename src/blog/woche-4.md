@@ -4,7 +4,7 @@ displayTitle: Woche 4 Powerlifting Ballerplan
 description: Woche 4 Powerlifting Ballerplan
 tags: powerlifting
 tags_href: lifting
-date: 2022-08-16
+date: 2022-08-20
 page_meta:
   metaDesc: description
   metaDescContent: Woche 4 Powerlifting Ballerplan
@@ -76,3 +76,35 @@ Es ist anfangs sehr frustrierend. Aber meiine Hoffnung ist einfach, dass ich am 
 Einfach den Kopf nicht in den Sand setzen.
 
 Wird schon.
+
+<h2 style="position: relative;" id="tag-3"><a href="#tag-3" aria-label="tag 3 Permalink" class="blog-header-link before"><svg aria-hidden="true" focusable="false" height="20" version="1.1" viewbox="0 0 16 16" width="20"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tag 3 Unterkörper 1 - 19.08.2022</h2>
+
+<figure>
+
+<img class="img-fluid" src="/images/woche-4/woche-4-tag-3-uk-1.png" alt="Trainingsplan zu der Woche 3 Tag 2 Oberkörper 1">
+<figcaption>Tag 3 Unterkörper 1 - 19.08.2022</figcaption>
+
+</figure>
+
+Also heben mit Competiton plates ist ganz anders. Das Gewicht klebt auf dem Boden und die Stange gibt nicht nach. Das macht ungefähr 10 % aus. Musste aus dem Grund auch runter gehen mit dem Gewicht, um 5 ordentliche Reps zu machen.
+
+Werde in Zukunft auch überwiegend in der Halle heben. Damit ich spezifisch wie möglich hebe.
+
+<h2 style="position: relative;" id="tag-4"><a href="#tag-4" aria-label="tag 4 Permalink" class="blog-header-link before"><svg aria-hidden="true" focusable="false" height="20" version="1.1" viewbox="0 0 16 16" width="20"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tag 4 Oberkörper 2 - 20.08.2022</h2>
+
+<figure>
+
+<img class="img-fluid" src="/images/woche-4/woche-4-tag-4-ok-2.png" alt="Trainingsplan zu der Woche 3 Tag 2 Oberkörper 1">
+<figcaption>Tag 4 Oberkörper 2 - 20.08.2022</figcaption>
+
+</figure>
+
+Bei dieser Einheit war ich wieder mal im TopFit. Es war gut. Ich habe alle Cues bei der Bench beachtet und habe pausiert und etwas näher am Bauchnabel abgelegt. Mal schauen, ob mit gescheiter Form bald neue PRs kommen.
+
+Ansonsten mega gute Einheit. So eine klassische Bodybuilding Einheit. 💪
+
+---
+
+Diese Woche war frustrierend, da meine Technik nicht gut ist. Außerdem habe ich viele Baustellen, die ich beheben muss. Vieles ist Technik und Mobilität.
+
+Ich will endlich voran kommen, deswegen mache ich fleißig meine Dehn-Hausaufgaben abends vor dem Schalfen gehen und höre auf meinem Coach bei der Technik.
