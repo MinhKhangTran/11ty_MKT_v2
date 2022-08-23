@@ -26,7 +26,7 @@ page_meta:
 
 <figure>
 
-<img src="/images/woche-4/ein-schlafender-koala-auf-einem-baum.jpg" alt="Ein schlafender Koala auf einem Baum">
+<img src="/images/woche-5/ein-schlafender-koala-auf-einem-baum.jpg" alt="Ein schlafender Koala auf einem Baum">
 <figcaption>Woche 5 Powerlifting Ballerplan</figcaption>
 
 </figure>
