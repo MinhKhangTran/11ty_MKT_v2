@@ -1,22 +1,19 @@
-<section class="container" id="blog__list" aria-label="blog list section">
-  {% for blogpost in blogListItems %}
-  <article>
-    <a href="{{blogpost.url}}">
-      <div class="text-zinc-600">
-        <time datetime="{{blogpost.data.date | dateFilter}}"
-          >{{blogpost.data.date | dateFilter}}</time
-        >
-      </div>
-      <h2 class="heading-2 | text-zinc-900">{{blogpost.data.title}}</h2>
-      <p class="body-lg text-zinc-600">
-        {{blogpost.data.description | subString}}
-      </p>
-    </a>
-    <a href="/{{blogpost.data.tags_href}}">
-      <span class="pill__{{blogpost.data.tags_href}} | rounded"
-        >{{blogpost.data.tags}}
-      </span>
-    </a>
-  </article>
-  {% endfor %}
+<section aria-label="blog list section" class="container" id="blog__list">
+    {% for blogpost in blogListItems %}
+        <article>
+            <a href="{{blogpost.url}}">
+                <div class="text-zinc-600">
+                    <time datetime="{{blogpost.data.date | dateFilter}}">{{blogpost.data.date | dateFilter}}</time>
+                </div>
+                <h2 class="heading-2 | text-zinc-900">{{blogpost.data.title}}</h2>
+                <p class="body-lg text-zinc-600">
+                    {{blogpost.data.description | subString}}
+                </p>
+            </a>
+            <a class="inline-block mt-2" href="/{{blogpost.data.tags_href}}">
+                <span class="pill__{{blogpost.data.tags_href}} | rounded">{{blogpost.data.tags}}
+                </span>
+            </a>
+        </article>
+    {% endfor %}
 </section>

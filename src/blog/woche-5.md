@@ -1,7 +1,7 @@
 ---
 title: Woche 5 Powerlifting Ballerplan
 displayTitle: Woche 5 Powerlifting Ballerplan
-description: Woche 5 Powerlifting Ballerplan
+description: Einfach Volumen für die Beine gemacht. Mit Box und Kosako Squat meine Abduktoren etc trainiert. Und mit High bar und Belt Squat Volumen gemacht. Ich hoffe, dass meine Low Bar Beuge, wenn ich wieder heile bin mega nach vorne gehen kann.
 tags: powerlifting
 tags_href: lifting
 date: 2022-08-27

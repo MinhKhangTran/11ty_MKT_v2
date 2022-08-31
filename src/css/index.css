@@ -415,10 +415,18 @@ ul {
   margin-top: 1.5rem;
 }
 
+.mt-2 {
+  margin-top: 0.875rem;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
   margin-inline: auto;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .logo {

@@ -1,7 +1,7 @@
 ---
 title: Woche 4 Powerlifting Ballerplan
 displayTitle: Woche 4 Powerlifting Ballerplan
-description: Woche 4 Powerlifting Ballerplan
+description: Diese Einheit lief katastrophal 🫣. Box Beuge lief gut, aber normales Beugen durfte ich wieder nicht.
 tags: powerlifting
 tags_href: lifting
 date: 2022-08-20

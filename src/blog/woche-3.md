@@ -1,7 +1,7 @@
 ---
 title: Woche 3 Powerlifting Ballerplan
 displayTitle: Woche 3 Powerlifting Ballerplan
-description: Woche 3 Powerlifting Ballerplan
+description: Bei dieser Einheit lief das Beugen gar nicht gut. Das Gewicht war nach der Box Beuge zu schwer und ich habe den Klappmesser gemacht. Und bei dem 3ten Satz in der dritten Wiederholung kamen meine Beinbeuger Probleme wieder 😢.
 tags: powerlifting
 tags_href: lifting
 date: 2022-08-11

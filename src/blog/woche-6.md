@@ -1,7 +1,7 @@
 ---
 title: Woche 6 Powerlifting Ballerplan
 displayTitle: Woche 6 Powerlifting Ballerplan
-description: Woche 6 Powerlifting Ballerplan
+description: Durch meine Hausaufgaben gelingt es mir leichter in die Beuge Position zu kommen. Volumen gemacht, damit die Hachsen wachsen. Die Position in der High Bar Beuge ist noch etwas unangenehm, aber des kommt noch. Jetzt bis zum Wettkampf Box Beuge, Highbar Beuge und Belt Squat so weit es geht hochleveln.
 tags: powerlifting
 tags_href: lifting
 date: 2022-08-30
